@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="in.co.istqb.webutils.IstqbListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="in.co.istqb.scripts.AboutUsScript">
+        <methods>
+          <include name="setUp"/>
+          <include name="aboutUsPerform"/>
+        </methods>
+      </class> <!-- in.co.istqb.scripts.AboutUsScript -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
